@@ -1,0 +1,150 @@
+/*! Noatice v0.1.8 * https://noatice.com/ * Copyright (c) 2020-2022 Robert Noakes * License: GNU General Public License v3.0 */
+.noatice {
+  border-color: #72777c;
+}
+.noatice-message {
+  -webkit-box-shadow: 0.125em 0.125em 0.25em 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0.125em 0.125em 0.25em 0 rgba(0, 0, 0, 0.5);
+  background-color: #72777c;
+  color: #fff;
+  padding: 0.75em 1em;
+}
+.noatice-message a {
+  color: inherit !important;
+  text-decoration: underline;
+}
+.noatice-message a:hover {
+  text-decoration: none;
+}
+.noatice-error {
+  border-color: #dc3232;
+}
+.noatice-error .noatice-message {
+  background-color: #dc3232;
+}
+.noatice-info {
+  border-color: #00a0d2;
+}
+.noatice-info .noatice-message {
+  background-color: #00a0d2;
+}
+.noatice-success {
+  border-color: #46b450;
+}
+.noatice-success .noatice-message {
+  background-color: #46b450;
+}
+.noatice-warning {
+  border-color: #ffb900;
+}
+.noatice-warning .noatice-message {
+  background-color: #ffb900;
+}
+
+#noatifications {
+  bottom: 0;
+  max-width: 30em;
+  padding-bottom: 0.375em;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 90000;
+}
+#noatifications .noatice {
+  clear: both;
+  margin: 0 0 0 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+#noatifications .noatice-inner {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.375em 0.75em;
+  position: relative;
+}
+#noatifications .noatice-dismiss {
+  -moz-transition: opacity 200ms ease-in-out;
+  -ms-transition: opacity 200ms ease-in-out;
+  -o-transition: opacity 200ms ease-in-out;
+  -webkit-transition: opacity 200ms ease-in-out;
+  transition: opacity 200ms ease-in-out;
+  cursor: pointer;
+  height: 100%;
+  position: absolute;
+  right: 0.75em;
+  top: 0;
+  width: 2.5em;
+  z-index: 1;
+}
+#noatifications .noatice-dismiss:hover {
+  opacity: 0.5;
+}
+#noatifications .noatice-dismiss::before, #noatifications .noatice-dismiss::after {
+  background-color: #fff;
+  content: " ";
+  display: block;
+  height: 0.125em;
+  left: 25%;
+  margin-top: -0.0625em;
+  position: absolute;
+  top: 50%;
+  width: 50%;
+}
+#noatifications .noatice-dismiss::before {
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+#noatifications .noatice-dismiss::after {
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+#noatifications .noatice-dismissable .noatice-message {
+  padding-right: 3em;
+}
+#noatifications.noatifications-rtl {
+  left: 0;
+  right: auto;
+}
+#noatifications.noatifications-rtl .noatice {
+  margin-left: 0;
+  margin-right: auto;
+}
+#noatifications.noatifications-rtl .noatice-dismiss {
+  left: 0.75em;
+  right: auto;
+}
+#noatifications.noatifications-rtl .noatice-dismissable .noatice-message {
+  padding-left: 3em;
+  padding-right: 1em;
+}
+
+body > .noatice {
+  display: none;
+  max-width: 30em;
+  position: absolute;
+  z-index: 80000;
+}
+body > .noatice .noatice-arrow {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 8px solid transparent;
+  border-top-color: inherit;
+  height: 16px;
+  left: 50%;
+  margin: 0 0 -8px -8px;
+  position: absolute;
+  top: 100%;
+  width: 16px;
+}
+body > .noatice .noatice-message {
+  padding: 0.375em 0.5em;
+}

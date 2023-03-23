@@ -1,0 +1,49 @@
+= 1.0.9 =
+
+* Added: Made sure the plugin works in WordPress 5.2.0
+
+= 1.0.8 =
+
+* Added: Made sure the plugin works in WordPress 4.9.8
+* Improved: Faux uninstall AJAX
+
+= 1.0.7 =
+
+* Added: GoDaddy color scheme
+* Added: Faux uninstall definition
+* Added: Made sure the plugin works in WordPress 4.9.6
+* Updated: Asset generation tools
+* Improved: Version check functionality
+* Improved: Various other minor improvements
+
+= 1.0.6 =
+
+* Added: Made sure the plugin works in WordPress 4.9.5
+* Improved: Moved core object classes to their own folder
+
+= 1.0.5 =
+
+* Changed: Domain name
+
+= 1.0.4 =
+
+* Improved: High-level variable comments
+* Improved: Abstract wrapper class
+
+= 1.0.3 =
+
+* Removed: Plugin activation hook. Forgot that isn't fired when the plugin is updated
+
+= 1.0.2 =
+
+* Improved: Additional minor improvements
+* Removed: Unnecessary plugin deactivation hook
+
+= 1.0.1 =
+
+* Added: Plugin activation and deactivation hooks
+* Improved: Various minor improvements
+
+= 1.0.0 =
+
+* Initial release
