@@ -3,9 +3,9 @@ Contributors: rnoakes3rd
 Donate link: https://www.paypal.com/donate?hosted_button_id=4NYEG2Q44CG8C&source=url
 Tags: acf, advanced, boxes, colorize, custom, fields, meta, obvious, standout, stylize
 Requires at least: 5.0
-Tested up to: 6.2
-Stable tag: 2.1.3
-Copyright: (c) 2018-2023 Robert Noakes (mr@robertnoakes.com)
+Tested up to: 6.5
+Stable tag: 2.1.4
+Copyright: (c) 2018-2024 Robert Noakes (mr@robertnoakes.com)
 License: GNU General Public License v3.0
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -56,6 +56,10 @@ Once the plugin is active, simply visit **Settings > ACF Stylizer** and enable t
 2. Stylized standard and seamless meta boxes
 
 == Changelog ==
+
+= 2.1.4 =
+
+* Verified: Functionality for WordPress 6.5
 
 = 2.1.3 =
 
