@@ -3,7 +3,7 @@
  * Plugin Name: ACF Stylizer
  * Plugin URI:  https://wordpress.org/plugins/acf-stylizer/
  * Description: Simple plugin that stylizes Advanced Custom Fields meta boxes to make them more obvious.
- * Version:     2.1.4
+ * Version:     2.1.5
  * Author:      Robert Noakes
  * Author URI:  https://robertnoakes.com/
  * Text Domain: acf-stylizer
